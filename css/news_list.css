@@ -1,0 +1,22 @@
+.main_news {
+    color: rgb(60, 60, 60);
+    margin-left: 10px;
+}
+.main_news >ul li{
+    position: relative;
+    line-height: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed rgb(153, 153, 153);
+}
+.main_news >ul li img{
+    margin-right: 15px;
+}
+.main_news >ul li span{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.main_news ul li a:hover{
+    color: rgb(0, 0, 255);
+}

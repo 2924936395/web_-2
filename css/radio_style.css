@@ -1,0 +1,15 @@
+.main_radio{
+    height: 620px;
+    border-bottom: 1px dashed rgb(111, 111, 111);
+}
+.main_radio h2{
+    color: rgb(255, 114, 0);
+}
+.main_radio h4{
+    font-weight: 400;
+    margin-top: 20px;
+    color: rgb(111, 111, 111);
+    margin-bottom: 20px;
+    height: 30px;
+    border-bottom: 1px dashed rgb(111, 111, 111);
+}

@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+body{
+    font-family: "微软雅黑";
+	font-size: 14px;
+	color: #000;
+    background-image: url(../images/bodybg.jpg);
+    
+}
+ul,li{
+    list-style: none;
+}
+
+.header{
+    text-align: center;
+}
+.nav{
+    background-color: rgb(28, 75, 169);
+    height: 40px; 
+}
+.nav >ul{
+    width: 1200px;
+    margin: 0 auto;
+}
+.nav >ul li{
+    display: inline-block; 
+}
+.nav >ul li a{
+    margin-left: 55px;
+    text-decoration:none;
+    color: aliceblue;
+    line-height: 40px;
+}
+.nav ul li a:hover{
+    color: yellow;
+}
+.page{
+    width: 1200px;
+    margin: 0 auto;
+}
+.page>ul{
+    margin:10px 0px;
+}
+.page>ul>li{
+    list-style-type: disc;
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+.page>ul li a{
+    color: red;
+    text-decoration: none;
+}
